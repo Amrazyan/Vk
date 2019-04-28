@@ -31,6 +31,7 @@
                 <Setter Property="Margin" Value="0,10,0,0"/>
                 <Setter Property="CornerRadius" Value="15"/>
                 <Setter Property="Padding" Value="0"/>
+                <Setter Property="OutlineColor" Value="White"/>
             </Style>
             
         </ResourceDictionary>
