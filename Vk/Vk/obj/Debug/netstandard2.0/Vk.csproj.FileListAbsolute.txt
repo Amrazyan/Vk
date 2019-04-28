@@ -13,4 +13,3 @@ C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk\obj\Debug\netstandard2.0\Vk.As
 C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk\obj\Debug\netstandard2.0\Vk.dll
 C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk\obj\Debug\netstandard2.0\Vk.pdb
-C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk\obj\Debug\netstandard2.0\Vk.csprojAssemblyReference.cache

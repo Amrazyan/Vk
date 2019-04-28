@@ -5,7 +5,10 @@ C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.Android\obj\Debug\81\android\a
 C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.Android\obj\Debug\81\android\assets\mscorlib.dll
 C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.Android\obj\Debug\81\android\assets\System.Core.dll
 C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.Android\obj\Debug\81\android\assets\System.dll
+C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.Android\obj\Debug\81\android\assets\System.Numerics.dll
+C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.Android\obj\Debug\81\android\assets\System.Numerics.Vectors.dll
 C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.Android\obj\Debug\81\android\assets\System.Xml.dll
+C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.Android\obj\Debug\81\android\assets\System.Xml.Linq.dll
 C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.Android\obj\Debug\81\android\assets\Vk.dll
 C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.Android\obj\Debug\81\android\assets\Xamarin.Android.Arch.Core.Common.dll
 C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.Android\obj\Debug\81\android\assets\Xamarin.Android.Arch.Lifecycle.Common.dll
@@ -32,7 +35,15 @@ C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.Android\obj\Debug\81\android\a
 C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.dll
 C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.dll
 C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.dll
+C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.Android\obj\Debug\81\android\assets\Xamarin.iOS.dll
 C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.Android\obj\Debug\81\android\assets\System.Net.Http.dll
 C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.Android\obj\Debug\81\android\assets\System.Runtime.Serialization.dll
 C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.Android\obj\Debug\81\android\assets\System.ServiceModel.Internals.dll
 C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.Android\obj\Debug\81\android\assets\Mono.Security.dll
+C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.Android\obj\Debug\81\android\assets\netstandard.dll
+C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.Android\obj\Debug\81\android\assets\System.Data.dll
+C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.Android\obj\Debug\81\android\assets\System.Transactions.dll
+C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.Android\obj\Debug\81\android\assets\System.IO.Compression.dll
+C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.Android\obj\Debug\81\android\assets\System.IO.Compression.FileSystem.dll
+C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.Android\obj\Debug\81\android\assets\System.ComponentModel.Composition.dll
+C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.Android\obj\Debug\81\android\assets\System.Web.Services.dll
