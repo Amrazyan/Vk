@@ -45,7 +45,6 @@ C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.iOS\bin\iPhoneSimulator\Debug\
 C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.iOS\bin\iPhoneSimulator\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
 C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.iOS\bin\iPhoneSimulator\Debug\Vk.dll
 C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.iOS\bin\iPhoneSimulator\Debug\Vk.pdb
-C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.iOS\bin\iPhoneSimulator\Debug\Vk.dll.mdb
 C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
 C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
 C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items

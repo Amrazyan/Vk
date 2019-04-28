@@ -4422,6 +4422,12 @@ namespace Vk.Droid
 			// aapt resource value: 0x7F010002
 			public const int feed = 2130771970;
 			
+			// aapt resource value: 0x7F010003
+			public const int fingerPrint = 2130771971;
+			
+			// aapt resource value: 0x7F010004
+			public const int folder = 2130771972;
+			
 			// aapt resource value: 0x7F090054
 			public const int ic_audiotrack_dark = 2131296340;
 			
@@ -4953,11 +4959,14 @@ namespace Vk.Droid
 			// aapt resource value: 0x7F090104
 			public const int ic_vol_type_tv_light = 2131296516;
 			
-			// aapt resource value: 0x7F010003
-			public const int menu = 2130771971;
+			// aapt resource value: 0x7F010005
+			public const int menu = 2130771973;
 			
-			// aapt resource value: 0x7F010004
-			public const int messenger = 2130771972;
+			// aapt resource value: 0x7F010006
+			public const int menu1 = 2130771974;
+			
+			// aapt resource value: 0x7F010007
+			public const int messenger = 2130771975;
 			
 			// aapt resource value: 0x7F090105
 			public const int mr_button_connected_dark = 2131296517;
@@ -5022,8 +5031,11 @@ namespace Vk.Droid
 			// aapt resource value: 0x7F09005C
 			public const int navigation_empty_icon = 2131296348;
 			
-			// aapt resource value: 0x7F010005
-			public const int notification = 2130771973;
+			// aapt resource value: 0x7F010008
+			public const int notification = 2130771976;
+			
+			// aapt resource value: 0x7F010009
+			public const int notification1 = 2130771977;
 			
 			// aapt resource value: 0x7F090001
 			public const int notification_action_background = 2131296257;
@@ -5061,20 +5073,8 @@ namespace Vk.Droid
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010006
-			public const int round_add_black_18dp = 2130771974;
-			
-			// aapt resource value: 0x7F010007
-			public const int round_fingerprint_black_18dp = 2130771975;
-			
-			// aapt resource value: 0x7F010008
-			public const int round_folder_black_18dp = 2130771976;
-			
-			// aapt resource value: 0x7F010009
-			public const int round_notifications_black_18dp = 2130771977;
-			
 			// aapt resource value: 0x7F010010
-			public const int round_reorder_black_18dp = 2130771984;
+			public const int plus = 2130771984;
 			
 			// aapt resource value: 0x7F010011
 			public const int search = 2130771985;
