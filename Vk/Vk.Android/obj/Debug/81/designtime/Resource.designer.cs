@@ -5062,13 +5062,28 @@ namespace Vk.Droid
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
 			// aapt resource value: 0x7F010006
-			public const int search = 2130771974;
+			public const int round_add_black_18dp = 2130771974;
 			
 			// aapt resource value: 0x7F010007
-			public const int tab_about = 2130771975;
+			public const int round_fingerprint_black_18dp = 2130771975;
 			
 			// aapt resource value: 0x7F010008
-			public const int tab_feed = 2130771976;
+			public const int round_folder_black_18dp = 2130771976;
+			
+			// aapt resource value: 0x7F010009
+			public const int round_notifications_black_18dp = 2130771977;
+			
+			// aapt resource value: 0x7F010010
+			public const int round_reorder_black_18dp = 2130771984;
+			
+			// aapt resource value: 0x7F010011
+			public const int search = 2130771985;
+			
+			// aapt resource value: 0x7F010012
+			public const int tab_about = 2130771986;
+			
+			// aapt resource value: 0x7F010013
+			public const int tab_feed = 2130771987;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
@@ -5076,8 +5091,8 @@ namespace Vk.Droid
 			// aapt resource value: 0x7F09006A
 			public const int tooltip_frame_light = 2131296362;
 			
-			// aapt resource value: 0x7F010009
-			public const int xamarin_logo = 2130771977;
+			// aapt resource value: 0x7F010014
+			public const int xamarin_logo = 2130771988;
 			
 			static Drawable()
 			{

@@ -12,29 +12,31 @@
     <ContentPage.Resources>
         <ResourceDictionary>
             <Color x:Key="Primary">#ffffff</Color>
-            <Color x:Key="Accent">#8a0e16</Color>
+            <Color x:Key="Accent">#e1e2e1</Color>
             <Color x:Key="LightTextColor">#868789</Color>
 
             <Style x:Key="primaryButtonStyle" TargetType="Button">
                 <Setter Property="BackgroundColor" Value="{StaticResource Primary}"/>
-                <Setter Property="Margin" Value="0,10,0,0"/>
-                <Setter Property="BorderWidth" Value="2"/>
                 <Setter Property="WidthRequest" Value="150"/>
-                <Setter Property="CornerRadius" Value="10"/>
                 <Setter Property="TextColor" Value="Black"/>
 
             </Style>
             <Style x:Key="secondaryButtonStyle" TargetType="Button" BasedOn="{StaticResource primaryButtonStyle}">
-                <Setter Property="BackgroundColor" Value="#181a19"/>
-                <Setter Property="TextColor" Value="#ffffff"/>
-                <Setter Property="BorderColor" Value="#ffffff"/>
+                <Setter Property="BackgroundColor" Value="Black"/>
+                <Setter Property="TextColor" Value="White"/>
 
+            </Style> 
+            <Style x:Key="customFrame" TargetType="Frame">
+                <Setter Property="HasShadow" Value="True"/>
+                <Setter Property="Margin" Value="0,10,0,0"/>
+                <Setter Property="CornerRadius" Value="15"/>
+                <Setter Property="Padding" Value="0"/>
             </Style>
             
         </ResourceDictionary>
     </ContentPage.Resources>
 
-    <Grid BackgroundColor="#181a19">
+    <Grid BackgroundColor="#f5f5f6">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
@@ -43,20 +45,20 @@
             <ColumnDefinition Width="50*"></ColumnDefinition>
             <ColumnDefinition Width="50*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <StackLayout Grid.ColumnSpan="2" BackgroundColor="{StaticResource Accent}" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
-            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
-                <ContentView Padding="0,40,0,40" VerticalOptions="Fill">
-                    <Image Source="xamarin_logo.png" VerticalOptions="Center" HeightRequest="164" />
-                </ContentView>
-            </StackLayout>
-        </StackLayout>
+        
         <ScrollView Grid.Row="1" Grid.ColumnSpan="2">
+            
             <StackLayout Orientation="Vertical" Padding="16,40,16,40" Spacing="10">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                    <ContentView Padding="0,40,0,40" VerticalOptions="Fill">
+                        <Image Source="xamarin_logo.png" VerticalOptions="Center" WidthRequest="300" HeightRequest="164" />
+                    </ContentView>
+                </StackLayout>
                 <Label FontSize="22">
                     <Label.FormattedText>
                         <FormattedString>
                             <FormattedString.Spans>
-                                <Span Text="AppName" TextColor="#ffffff" FontAttributes="Bold" FontSize="22" />
+                                <Span Text="AppName" TextColor="#000000" FontAttributes="Bold" FontSize="22" />
                                 <Span Text=" " />
                                 <Span Text="1.0" ForegroundColor="{StaticResource LightTextColor}" />
                             </FormattedString.Spans>
@@ -89,15 +91,82 @@
                     </Label.FormattedText>
                 </Label>
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-                    <Button Text="Message"
-                            Command="{Binding OpenWebCommand}"
-                            Style="{StaticResource primaryButtonStyle}"
-                            />
-                    <Button Text="Following"
-                            Style="{StaticResource secondaryButtonStyle}"
-                            />
+                    <Frame Style="{StaticResource customFrame}"> 
+                        <Button Text="Message"
+                                Command="{Binding OpenWebCommand}"
+                                Style="{StaticResource primaryButtonStyle}"
+                                />
+                    </Frame>
+                    <Frame Style="{StaticResource customFrame}">
+                        <Button Text="Following"
+                                Style="{StaticResource secondaryButtonStyle}"
+                                />
+                    </Frame>
                 </StackLayout>
+                <Label FontSize="22">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="AppName" TextColor="#000000" FontAttributes="Bold" FontSize="22" />
+                                <Span Text=" " />
+                                <Span Text="1.0" ForegroundColor="{StaticResource LightTextColor}" />
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span ForegroundColor="{StaticResource LightTextColor}" Text="This app is written in C# and native APIs using the" />
+                                <Span Text=" " />
+                                <Span ForegroundColor="{StaticResource LightTextColor}" Text="Xamarin Platform" FontAttributes="Bold" />
+                                <Span Text="." />
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span ForegroundColor="{StaticResource LightTextColor}" Text="This app is written in C# and native APIs using the" />
+                                <Span Text=" " />
+                                <Span ForegroundColor="{StaticResource LightTextColor}" Text="Xamarin Platform" FontAttributes="Bold" />
+                                <Span Text="." />
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span ForegroundColor="{StaticResource LightTextColor}" Text="This app is written in C# and native APIs using the" />
+                                <Span Text=" " />
+                                <Span ForegroundColor="{StaticResource LightTextColor}" Text="Xamarin Platform" FontAttributes="Bold" />
+                                <Span Text="." />
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span ForegroundColor="{StaticResource LightTextColor}" Text="This app is written in C# and native APIs using the" />
+                                <Span Text=" " />
+                                <Span ForegroundColor="{StaticResource LightTextColor}" Text="Xamarin Platform" FontAttributes="Bold" />
+                                <Span Text="." />
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+
             </StackLayout>
+            
+            
         </ScrollView>
     </Grid>
     

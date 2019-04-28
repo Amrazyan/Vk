@@ -53,17 +53,17 @@
     -->
     <Shell.Resources>
         <ResourceDictionary>
-            <Color x:Key="NavigationPrimary">#2b2d2c</Color>
+            <Color x:Key="NavigationPrimary">#f9f9f9</Color>
             <Style x:Key="BaseStyle" TargetType="Element">
-                <Setter Property="Shell.ShellBackgroundColor" Value="#2b2d2c" />
-                <Setter Property="Shell.ShellForegroundColor" Value="#2b2d2c" />
-                <Setter Property="Shell.ShellTitleColor" Value="White" />
-                <Setter Property="Shell.ShellDisabledColor" Value="#B4FFFFFF" />
-                <Setter Property="Shell.ShellUnselectedColor" Value="#95FFFFFF" />
-                <Setter Property="Shell.ShellTabBarBackgroundColor" Value="#181a19" />
-                <Setter Property="Shell.ShellTabBarForegroundColor" Value="White"/>
-                <Setter Property="Shell.ShellTabBarUnselectedColor" Value="#95FFFFFF"/>
-                <Setter Property="Shell.ShellTabBarTitleColor" Value="White"/>
+                <Setter Property="Shell.ShellBackgroundColor" Value="#f9f9f9" />
+                <Setter Property="Shell.ShellForegroundColor" Value="#f9f9f9" />
+                <Setter Property="Shell.ShellTitleColor" Value="Black" />
+                <Setter Property="Shell.ShellDisabledColor" Value="Black" />
+                <Setter Property="Shell.ShellUnselectedColor" Value="Black" />
+                <Setter Property="Shell.ShellTabBarBackgroundColor" Value="#f9f9f9" />
+                <Setter Property="Shell.ShellTabBarForegroundColor" Value="Black"/>
+                <Setter Property="Shell.ShellTabBarUnselectedColor" Value="Black"/>
+                <Setter Property="Shell.ShellTabBarTitleColor" Value="Black"/>
             </Style>
             <Style TargetType="ShellItem" BasedOn="{StaticResource BaseStyle}" />
         </ResourceDictionary>
@@ -71,19 +71,19 @@
 
     <!-- Your Pages -->
     <ShellItem>
-        <ShellSection Icon="feed.png">
+        <ShellSection Icon="plus.png">
             <ShellContent ContentTemplate="{DataTemplate local:ItemsPage}" />
         </ShellSection>
-        <ShellSection Icon="search.png">
+        <ShellSection Icon="notification1.png">
             <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
         </ShellSection>
-        <ShellSection Icon="messenger.png">
+        <ShellSection Icon="fingerPrint.png">
             <ShellContent ContentTemplate="{DataTemplate local:ItemsPage}" />
         </ShellSection>
-        <ShellSection Icon="notification.png">
+        <ShellSection Icon="folder.png">
             <ShellContent ContentTemplate="{DataTemplate local:ItemsPage}" />
         </ShellSection>
-        <ShellSection Icon="menu.png">
+        <ShellSection Icon="menu1.png">
                 <ShellContent ContentTemplate="{DataTemplate local:ItemsPage}" />
         </ShellSection>
     </ShellItem>

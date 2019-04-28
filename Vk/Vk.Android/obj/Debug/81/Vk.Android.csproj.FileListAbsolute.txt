@@ -226,3 +226,8 @@ C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.Android\obj\Debug\81\android\a
 C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.Android\obj\Debug\81\stamp\_CompileToDalvik.stamp
 C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.Android\obj\Debug\81\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.Android\obj\Debug\81\android\assets\System.Runtime.dll
+C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.Android\obj\Debug\81\res\drawable\fingerprint.png
+C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.Android\obj\Debug\81\res\drawable\plus.png
+C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.Android\obj\Debug\81\res\drawable\folder.png
+C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.Android\obj\Debug\81\res\drawable\notification1.png
+C:\Users\amraz\Documents\XamarinProjects\VK\Vk\Vk.Android\obj\Debug\81\res\drawable\menu1.png
